@@ -1,0 +1,5 @@
+# /hab/user/habichef_demo/config/user.toml
+
+[attributes]
+  [attributes.resolver]
+    domain = "us-east-1.qubitrenegade.com"

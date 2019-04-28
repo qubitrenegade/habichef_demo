@@ -1,0 +1,5 @@
+# habichef_demo/habitat/config-apply-demo.toml
+
+[attributes]
+  [attributes.resolver]
+    domain = "example.local"
