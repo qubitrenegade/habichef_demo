@@ -1,0 +1,11 @@
+# habichef_demo/habitat/plan.sh
+scaffold_policy_name="base"
+pkg_name="habichef_demo"
+pkg_origin="qbrd"
+pkg_version="0.1.0"
+pkg_maintainer="QubitRenegade"
+pkg_description="The Chef $scaffold_policy_name Policy"
+pkg_upstream_url="http://chef.io"
+pkg_scaffolding="core/scaffolding-chef"
+pkg_svc_user="root"
+pkg_svc_group="root"
