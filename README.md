@@ -2,6 +2,8 @@
 
 This is the repo for the associated set of blog posts at https://qubitrenegade.com
 
+* Pt1: [Habichef Packaging Chef for easy consumption](https://qubitrenegade.com/habitat/consul/docker/2019/04/08/Habichef-Packaging-Chef-for-easy-consumption.html)
+
 ## License & Authors
 
 **Author:** QubitRenegade
