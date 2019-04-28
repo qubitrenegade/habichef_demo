@@ -1,0 +1,22 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: habitat
+  install_latest_artifact: true
+  package_origin: qbrd
+  package_name: habichef_demo
+
+verifier:
+  name: inspec
+
+platforms:
+  # - name: ubuntu-18.04
+  - name: centos-7
+
+suites:
+  - name: default
+    verifier:
+      inspec_tests:
+        - test/integration/default
