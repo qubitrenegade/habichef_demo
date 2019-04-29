@@ -2,4 +2,6 @@
 
 [attributes]
   [attributes.resolver]
-    domain = "example.local"
+    # domain = "example.local"
+    # nameservers = ["1.0.0.1"]
+    nameservers = ["8.8.8.8"]
