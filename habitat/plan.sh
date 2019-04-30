@@ -1,4 +1,10 @@
 # habichef_demo/habitat/plan.sh
+if [ -z ${CHEF_POLICYFILE+x} ]; then
+  policy_name="base"
+else
+  policy_name="${CHEF_POLICYFILE}"
+fi
+
 scaffold_policy_name="base"
 pkg_name="habichef_demo"
 pkg_origin="qbrd"
